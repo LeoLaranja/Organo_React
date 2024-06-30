@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.time{
+    text-align: center;
+    padding: 32px;
+}
+
+.time h3{
+    font-size: 32px;
+   
+}
+.borderArea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.border{
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid;
+    padding-bottom: 8px;
+    width: 32px;
+}
+.colaboradorArea{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    gap: 32px;
+}

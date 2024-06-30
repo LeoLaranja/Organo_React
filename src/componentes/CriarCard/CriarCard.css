@@ -1,0 +1,29 @@
+.areaButtonCriarCard button {
+    background-color: rgba(98, 120, 247, 1);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 32px;
+    border-radius: 10px;
+    width:167px;
+    height:80px;
+    border:none;
+    cursor: pointer;
+}
+.areaButtonCriarCard button:hover{
+    color:  rgba(149, 255, 212, 1);
+}
+
+@media(max-width:768px){
+    .areaButtonCriarCard{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:425px){
+    .areaButtonCriarCard button{
+        height: 60px;
+        padding: 14px;
+    }
+}

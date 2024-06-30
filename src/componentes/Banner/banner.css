@@ -1,0 +1,17 @@
+.banner{
+    text-align: center;
+    width: 100%;
+    background-color: #6278F7;
+}
+
+@media(max-width:1024px){
+.banner img{
+    width: 900px;
+}
+}
+
+@media(max-width:768px){
+    .banner img{
+        width: 100%;
+    }
+    }

@@ -1,0 +1,39 @@
+.rodapeContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #6278F7;
+    background-image: url(fundo.png);
+}
+
+.rodapeArea{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    height: 233px;
+}
+
+.iconsArea{
+    display: flex;
+    gap: 35px;
+}
+
+@media(max-width:425px){
+    .iconsArea {
+        gap:10px
+    }
+    .logoArea img{
+        width: 150px;
+    }
+    .desenvolvidoArea h4{
+        font-size: 14px;
+    }
+    .rodapeArea {
+        flex-direction: column;
+    }
+    .colaborador .rodape{
+        height: 165px;
+    }
+}
