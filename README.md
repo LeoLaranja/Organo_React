@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Cadastro de Colaboradores de Times Profissionais - ORGANO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto em React feito com auxílio da Formação Front-End Alura - Turma T6
 
-## Available Scripts
+## Tecnologias Utilizadas:
 
-In the project directory, you can run:
+- React
+- CSS
+
+## Objetivo:
+
+Desenvolver uma aplicação web que permita o cadastro e organização de colaboradores em diferentes times profissionais, exibindo-os em cards que contém informações como Nome, Cargo, Imagem e o Time ao qual pertencem.
+
+## Funcionalidades:
+
+#### 1. Cadastro de Colaboradores:
+
+- Um formulário para cadastrar novos colaboradores, onde o usuário pode preencher campos como Nome, Cargo, Imagem e selecionar o Time ao qual o colaborador pertence.
+- Os dados do colaborador são adicionados à lista de colaboradores após o envio do formulário.
+
+#### 2. Organização por Times:
+
+- Os colaboradores são organizados e exibidos em seções correspondentes aos times definidos.
+- Cada time possui uma cor primária e secundária para facilitar a visualização e distinção.
+
+#### 3. Exibição em Cards:
+
+- Os colaboradores são exibidos em cards contendo sua imagem, nome e cargo.
+- Os cards são organizados dentro das seções dos respectivos times.
+
+## Estrutura do Projeto:
+### `Diretório: src`
+- "App.js": Componente principal que controla a lógica de estado e renderização.
+- "componentes/Banner/banner.js": Componente de banner.
+- "componentes/Formulario.js": Componente de formulário para adicionar novos colaboradores.
+- "componentes/Time.js": Componente que organiza e exibe os colaboradores por time.
+- "componentes/Rodape.js": Componente de rodapé.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Executa o aplicativo no modo de desenvolvimento.
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo em seu navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A página será recarregada quando você fizer alterações.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
